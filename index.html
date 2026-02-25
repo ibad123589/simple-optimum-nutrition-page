@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimum Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="mass">
+<header class="box">
+    <img class="pic" src="data:image/png;base64,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" height="100px" width="200px" alt="error">
+<nav class="navi">
+   <a href="shop.html"> <button>SHOP></button></a>
+    <button>GOALS</button>
+    <a href="https://www.optimumnutrition.com/en-us/pages/our-advice"><button>ADVICE</button></a>
+    <a href="https://www.optimumnutrition.com/pages/protein-calculator"><button>PROTEIN CALCULATOR</button></a>
+    <button>PARTNERSHIPS</button>
+</nav>
+</header>
+<div class="ment">
+    <h2 class="tise">ALL ADVERTISEMENTS</h2>
+</div>
+    <div class="sent1"><h1 class="name">STANDARD GOLD WHEY</h1></div>
+    <video class="add" autoplay controls height="300px" width="500px">
+    <source type="video/mp4" src="c:\Users\LENOVO\Desktop\optimum nutrition.mp4">
+</video>
+
+<div class="sent2"><h1 class="name2">MICRONISED CREATINE MONOHYDRATE</h1></div>
+<video class="add2" autoplay controls height="300px" width="500px">
+    <source type="video/mp4" src="c:\Users\LENOVO\Desktop\CREATINE.mp4">
+</video>
+<div class="sent3"><h1 class="name3">SERIOUS MASS</h1></div>
+<video class="add3" autoplay controls height="300px" width="500px">
+<source type="video/mp4" src="c:\Users\LENOVO\Desktop\serious mass.mp4">
+</video>
+<div class="sent4"><h1 class="name4">PLATINUM PRE-WORKOUT</h1></div>
+<video class="add4" autoplay controls height="300px" width="500px">
+<source type="video/mp4" src="c:\Users\LENOVO\Desktop\platinum.mp4">
+</video>
+<div class="pose">
+    <img src="https://d3q27bh1u24u2o.cloudfront.net/news/Untitled_1850_x_1042_px_h82L3N0.png" width="1000px" alt="error">
+</div>
+<footer class="feet">
+    <div class="post">
+        <h1 class="feet1">CUSTOMER SERVICE</h1>
+        
+            <div class="hand1">
+                <ul>Customer service</ul>
+        <ul>Order information</ul>
+        <ul>Payment options</ul>
+        <ul>Return policy</ul>
+        <ul>Ordering</ul>
+        <ul>Contact</ul>
+        <ul>FAQ</ul>
+            </div>
+        
+    </div>
+    <div>
+        <h1 class="feet2">ABOUT OPTIMUM NUTRITION</h1>
+        
+          <div class="hand2">
+              <ul>Authentic products</ul>
+            <ul>Our quality</ul>
+            <ul>About us</ul>
+            <ul>Terms of use</ul>
+            <ul>Privacy policy</ul>
+            <ul>Careers</ul>
+        
+          </div>
+    </div>
+    <div>
+        <h1 class="feet3">EXPLORE</h1>
+        
+            <div class="hand3">
+                <ul>Advice</ul>
+            <ul>Atheletes</ul>
+            <ul>Recipes</ul>
+            <ul>Health and performace course</ul>
+            <ul>Recycle</ul>
+            </div>
+        
+    </div>
+    <div>
+        <h1 class="feet4">FOLLOW US</h1>
+        
+            <div class="hand4">
+                <ul>Instagram</ul>
+            <ul>Facebook</ul>
+            <ul>TikTok</ul>
+            <ul>Linkedin</ul>
+            <ul>Youtube</ul>
+            </div>
+        
+    </div>
+    </footer>
+<div class="nose">
+   <div class="eye">
+    <div class="nose0">
+     <img src="c:\Users\LENOVO\Desktop\download2.png" height="50px" width="50px" alt="error">
+   </div>
+   <div class="nose1">
+     <img src="c:\Users\LENOVO\Desktop\download.png" height="60px" width="60px" alt="error">
+</div>
+<div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (1).png" height="50px" width="60px" alt="error">
+</div>
+<div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (2).png" height="50px" width="70px" alt="error">
+</div>
+<div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (3).png" height="50px" width="70px" alt="error">
+</div>
+<div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (4).png" height="50px" width="70px" alt="error">
+</div>
+<div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (5).png" height="50px" width="70px" alt="error">
+
+   </div>
+   <div class="nose1">
+    <img src="c:\Users\LENOVO\Desktop\download (6).png" height="50px" width="70px" alt="error">
+</div>
+</div>
+<div class="brow">
+    <h1 class="brew">ALL PAYMENT PARTNERS</h1>
+</div>
+</div>
+
+
+
+   <script src="index.js"></script>
+</body>
+</html>
